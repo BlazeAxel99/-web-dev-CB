@@ -1,0 +1,35 @@
+        *{
+            font-style: italic;
+        }
+        /*  '*' is global selector in css   */
+        div {
+            color: blue;
+           
+           
+        }
+        p {
+           color:red;
+        }
+
+        .big{
+            font-size: 25pt;
+        }
+
+        .bold{
+            font-weight: bold;
+        }
+
+        #one{
+            background-color: orange;
+        }
+         
+        #two{
+            padding: 40px;
+        }
+
+        input[disabled] {
+           height: 100px;
+        }
+        input[type="text"]{
+            height: 30px;
+        }
