@@ -1,0 +1,25 @@
+div {
+    height: 100px;
+    width: 100px;
+    color: beige;
+    background-color: indigo;
+   
+    margin: 20px;
+}
+
+.one{
+    transform: scale(1,0.5);
+}
+.two{
+    transform: rotateZ(10deg);
+}
+.three{
+    transform: translateX(50px) translateY(40px);
+}
+.four{
+  transform: rotate(45deg)  translateX(200px);
+}
+/* .four{
+    transform: translateX(200px) rotate(45deg)  ;  this is diff from above
+  }
+  */
