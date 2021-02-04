@@ -1,0 +1,19 @@
+#id1{
+   background-color: lightgreen;
+}
+*{
+    background-color: aqua;
+}
+div {
+    background-color: lightseagreen;
+}
+.c1{
+    background-color: lightcoral;
+}
+#id1{
+    background-color: lightsteelblue;
+}
+.c1{
+    background-color: lightskyblue;
+}
+/* order of inheritance * < elements(eg. div,p) < class < id */

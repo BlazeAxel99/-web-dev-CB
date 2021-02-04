@@ -1,0 +1,22 @@
+#p1{
+    font-size: 30px;               /* pt: derived from type writter script 
+                                       em : 1:43:19           
+                                       vh: 1/100 of win height */
+}
+
+#p2 {
+     /*  font-family: monospace; */
+    /* font-family: sans-serif; */
+font-family : 'Segoe UI' , Tanhoma, Geneva;
+
+}
+
+#p3{
+ font-style: italic;
+ font-weight: bolder;
+}
+
+#p4{
+   word-spacing: 1px;
+   letter-spacing: 10px;
+}
