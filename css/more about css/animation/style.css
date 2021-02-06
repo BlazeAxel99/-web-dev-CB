@@ -1,0 +1,42 @@
+.container{
+    margin: 30px;
+    width: 400px;
+    height: 400px;
+    background-color: lightpink;
+   /* font-size: 0px; */
+  }
+
+.item{
+    height: 50px;
+    width: 50px;
+    background-color: darkcyan;
+    border: solid black 1px;
+    display: inline-block;
+    margin: 20px;
+    animation: bounce 2s infinite;
+}
+
+.one{
+    animation-timing-function: ease-in; /*starts slow end fast*/
+}
+.two{
+    animation-timing-function: ease-out;/*starts fast end slow*/
+}
+.three{
+    animation-timing-function: linear;
+}
+.four{
+    animation-timing-function: ease-in-out;
+}
+@keyframes bounce{
+     0%{
+    /*  transform: scale(2);*/
+     }
+     50%{
+        transform: translateY(300px);
+      
+     }
+     100%{
+
+     }
+}
