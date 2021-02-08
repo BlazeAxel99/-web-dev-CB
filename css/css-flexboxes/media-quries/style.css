@@ -1,0 +1,25 @@
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+   background-color:  brown;
+}
+/*below is deskptop first
+for mobile first change the order and change max to mun
+*/
+@media (max-width: 1200px){
+    .box{
+        background-color: dodgerblue;
+    }
+}
+@media (max-width: 900px){
+    .box{
+        background-color:purple;
+    }
+}
+
+@media (max-width: 600px){
+    .box{
+        background-color: limegreen;
+    }
+}

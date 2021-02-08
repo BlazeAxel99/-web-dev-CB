@@ -1,0 +1,28 @@
+.container{
+    margin: 40px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    background-color: bisque;
+  /*  display: inline-flex; */
+    flex-wrap: wrap /*-reverse*/;
+    flex-direction: row /*-reverse*/;
+
+    justify-content: center;  /* how item within a roe are aligned in order */
+    align-items: flex-end ; /* align iteam within row perpendicularly */
+
+     align-content: center;
+}
+
+.item{
+    border: dotted maroon 2px;
+    /*margin: 10px;*/
+    height: 50px;
+    width: 50px;
+    background-color: lightseagreen;
+    font-size: 20pt;
+    color: white;
+    text-align: center;
+
+
+}
