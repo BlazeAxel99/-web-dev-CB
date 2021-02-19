@@ -39,4 +39,25 @@ console.log(fun.__proto__ == Function.prototype)
 
 // String.prototype inherits from Object.prototype
 
-let x = Object.create(Boolean.prototype)
+//let x = Object.create(Boolean.prototype)
+
+console.log(str.charAt(4))
+console.log(typeof str.charAt)//?...........functiom
+let str2 = "dgndgn"
+console.log(str.charAt == str2.charAt)//true
+
+str.charAt = function () { return 'x'}// does not make any difference 
+
+String.prototype.charAt = function () {return 'y'}
+console.log(str.charAt(1))
+
+//String.prototype contains all default string functions
+//like charAt, indexof, substring, slice etc
+
+Array.prototype.joinOriginal = Array.prototype.join
+
+Array.prototype.join = function(){
+    console.log('join called on',this)
+    return this.joinOriginal(...arguments)
+
+}
